@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ALTER TABLE llx_societe_rib ADD UNIQUE INDEX uk_societe_rib(label, fk_soc);

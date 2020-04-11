@@ -1,0 +1,27 @@
+Paso 0 (solo se hace la primera vez que lo descargamos)
+docker-compose build
+
+Paso 1 (solo se ejecuta este script la primera vez como paso 0)
+./bin/dolibarr10/01_installDolibarr.sh
+
+Paso 2
+docker-compose up
+
+docker-compose down
+
+Paso 3 (modificar el docker-compose.yml)
+# Variable auto install 0 false 1 true
+DOLI_INSTALL_AUTO=0
+
+Ya despues de esto podemos realiar docker-compose up/down si reintalar cada vez que lo inicializamos
+
+
+usuario web
+admin
+pwd
+admin
+
+pagina ref 
+https://hub.docker.com/r/tuxgasy/dolibarr/
+https://github.com/Monogramm/docker-dolibarr
+

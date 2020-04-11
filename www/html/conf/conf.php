@@ -1,0 +1,13 @@
+<?php
+$dolibarr_main_url_root='http://0.0.0.0';
+$dolibarr_main_document_root='/var/www/html';
+$dolibarr_main_url_root_alt='/custom';
+$dolibarr_main_document_root_alt='/var/www/html/custom';
+$dolibarr_main_data_root='/var/www/documents';
+$dolibarr_main_db_host='mariadb';
+$dolibarr_main_db_port='3306';
+$dolibarr_main_db_name='dolibarr';
+$dolibarr_main_db_prefix='llx_';
+$dolibarr_main_db_user='root';
+$dolibarr_main_db_pass='root';
+$dolibarr_main_db_type='mysqli';
